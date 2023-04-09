@@ -29,7 +29,7 @@ body {
 
 .card {
     width: 350px;
-    height: 525px;
+    height: 585px;
     background-image: url("images/illustration-hero.svg");
     background-position: top;
     background-repeat: no-repeat;
@@ -70,6 +70,20 @@ body {
     align-self: center;
     /* display: flex;
     justify-content: space-around; */
+}
+
+button {
+    width: 100%;
+    margin: 2em 0;
+    padding: 1em;
+    border-radius: 5%;
+    border: none;
+    background-color: var(--bright-blue);
+    color: var(--v-pale-blue);
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 
