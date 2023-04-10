@@ -124,6 +124,8 @@ button {
 
 button:hover {
     cursor: pointer;
+    transform: scale(1.01);
+    background-color: var();
 }
 
 h1 {
