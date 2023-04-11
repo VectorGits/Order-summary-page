@@ -37,7 +37,7 @@ body {
     background-image: url("images/illustration-hero.svg");
     background-position: top;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     border-radius: 2em;
     display: flex;
     flex-direction: column;
@@ -126,6 +126,7 @@ button:hover {
     cursor: pointer;
     transform: scale(1.01);
     background-color: var();
+    transition-duration: 500ms;
 }
 
 h1 {
