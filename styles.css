@@ -44,7 +44,7 @@ body {
     align-items: center;
     padding-bottom: 2em;
     margin: 10vh 0 5em 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .top-sect {
@@ -69,6 +69,7 @@ body {
     justify-content: left;
     border-radius: 0.8em;
     background-color: var(--v-pale-blue);
+    padding: 1em 0;
 }
 
 .price > div {
@@ -131,17 +132,31 @@ button:hover {
 
 h1 {
     font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.seller-text {
+    color: var(--desaturated-blue);
+}
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .plan {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
+    white-space: nowrap;
+    margin-bottom: none;
+    color: var(--dark-blue);
     /* outline: 2px solid black; */
 }
 
 span {
     font-size: 1em;
+    margin-top: 0%;
 }
 
 .attribution {
