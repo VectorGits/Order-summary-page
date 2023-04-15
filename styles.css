@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;600;700;800&display=swap');
 
 
 :root {
@@ -131,7 +131,7 @@ button:hover {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 800;
     color: var(--dark-blue);
 }
 
@@ -146,7 +146,7 @@ h3 {
 
 .plan {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.1em;
     white-space: nowrap;
     margin-bottom: none;
