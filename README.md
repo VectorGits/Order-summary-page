@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://order-summary-page1.netlify.app/)
+- Solution URL: [Solution on Frontend mentor](https://www.frontendmentor.io/solutions/order-summary-page-using-html-and-css-uY2vumA1ig)
+- Live Site URL: [Live Site](https://order-summary-page1.netlify.app/)
 
 ## My process
 
@@ -48,51 +48,53 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt to use Utility classes in CSS and how it can make me to write faster and cleaner code, I also learnt how to properly use the box-shadow CSS property and lastly how to prevent text from over-flowing
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    /* colors */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --v-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.plan {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.1em;
+    white-space: nowrap;
+    margin-bottom: none;
+    color: var(--dark-blue);
+    /* outline: 2px solid black; */
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I wish to focus and improve on my CSS flexbox, positioning, CSS grid and basically get more comfortable writing CSS.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Stack Overflow](https://stackoverflow.com/questions/6667081/keep-a-line-of-text-as-a-single-line-wrap-the-whole-line-or-none-at-all) - This helped me with a css code snippet that functions to keep text in a single line. I really liked this pattern and will use it going forward.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This documentation on CSS box-shadow was the explanation I needed to fully understand this concept helped me greatly in my button styling. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Vector](https://www.your-site.com)
+- Frontend Mentor - [@VectorGits](https://www.frontendmentor.io/profile/VectorGits)
+- Twitter - [@Vector_keen](https://www.twitter.com/Vector_keen)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Special thanks to [Ayo](https://github.com/Ayblue004) who provided some assistance to me in my CSS when I got stuck
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

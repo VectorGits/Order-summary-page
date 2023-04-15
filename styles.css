@@ -139,10 +139,10 @@ h1 {
     color: var(--desaturated-blue);
 }
 
-h3 {
+/* h3 {
     margin-top: 0%;
     margin-bottom: 0%;
-}
+} */
 
 .plan {
     font-family: 'Roboto', sans-serif;
