@@ -50,7 +50,6 @@ Users should be able to:
 
 I learnt to use Utility classes in CSS and how it can make me to write faster and cleaner code, I also learnt how to properly use the box-shadow CSS property and lastly how to prevent text from over-flowing
 
-To see how you can add code snippets, see below:
 
 
 ```css
